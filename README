@@ -1,8 +1,8 @@
 Alunos
-Lúdio e Caíque
+Caíque e Lúdio
 
 Para compilar: 
-    mpicc caique_ludio -lm
+    mpicc fox -lm
     
 Para executar
     mpirun -np 4 ./a.out casodeteste.txt
