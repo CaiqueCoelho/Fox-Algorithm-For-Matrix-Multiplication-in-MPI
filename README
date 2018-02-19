@@ -1,0 +1,17 @@
+Alunos
+Lúdio e Caíque
+
+Para compilar: 
+    mpicc caique_ludio -lm
+    
+Para executar
+    mpirun -np 4 ./a.out casodeteste.txt
+
+onde 4 eh o numero de processadores.
+
+Os casos de testes foram gerados pelo gerador.py alterando o tamanho da matriz para um tamanho quadrado.
+
+Nosso trabalho foi baseado nos tutoriais encontrados nos livros:
+
+http://ppomorsk.sharcnet.ca/Lecture_2_c_matrix_multiplication.pdf
+http://www.cas.mcmaster.ca/~nedialk/COURSES/4f03/Lectures/matrixmult.pdf
